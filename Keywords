@@ -1,0 +1,58 @@
+print("Activity")
+var = 10
+while var > 0:
+    var = var - 1
+    if var == 5:
+        continue
+    print("\n Curent variable value = ",var)
+print("Good Night")
+
+
+a = input("Enter a word = ")
+key = input("Enter your searching letter = ")
+count = 0
+for j in a:
+    if j == key:
+        print(f"{key} found")
+        count = count + 1
+        break
+    else:
+        print(f'{key} not found')
+
+
+print("Game")
+for t in range(10):
+    if t % 25 == 0:
+        print("twist")
+    elif t % 20 == 0:
+        pass
+    elif t % 15 == 0:
+        pass
+    elif t % 10 == 0:
+        print("Fizz")
+    elif t % 5 == 0:
+        print("Buzz")
+    else:
+        print(t)
+
+
+
+
+def myFunction(a, b):
+    sum = a + b
+    return sum
+summ = myFunction(10, 20)
+print(summ)
+
+print("Continue")
+for i in range(9):
+    if i == 3:
+        continue
+    i = i + 1
+    print(i)
+print("Break")
+for n in range(9):
+    if n == 3:
+        break
+    n = n + 1
+    print(n)
